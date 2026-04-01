@@ -1,0 +1,50 @@
+   13  git commit -m 'Criação da página de Contatos'
+   14  ls
+   15  git switch master
+   16  ls
+   17  git branch -m feature-contato paginas-novas
+   18  git branch teste-lixo
+   19  git branch -d teste-lixo
+   20  history 50 > entrega_aula04A.txt
+   21  git branch >> entrega_aula04B.txt
+   22  git log
+   23  git remote -v
+   24  docker --version
+   25  act --version
+   26  act --version
+   27  act --version
+   28  ls
+   29  cd ~
+   30  mkdir meu-projeto-ci
+   31  cd meu-projeto-ci
+   32  git init
+   33  echo "# Meu Projeto CI" > README.md
+   34  git add .
+   35  git commit -m 'first commit'
+   36  mkdir -p .github/workflows
+   37  nano .github/workflows/01-hello-local.yml
+   38  act -l
+   39  nano .github/workflows/01-hello-local.yml
+   40  act -l
+   41  docker ps
+   42  docker info
+   43  docker info
+   44  docker info
+   45  act -l
+   46  act -W .github/workflows/01-hello-local.yml | grep "|"
+   47  act -W .github/workflows/01-hello-local.yml | grep "|"
+   48  act -W .github/workflows/01-hello-local.yml | grep "Iniciando\|Finalizado"
+   49  act -W .github/workflows/01-hello-local.yml | grep "Iniciando\|Finalizado"
+   50  act -W .github/workflows/01-hello-local.yml -v
+   51  docker pull node:slim
+   52  act -W .github/workflows/01-hello-local.yml -P ubuntu-latest=node:slim -v
+   53  nano .github/workflows/02-pipeline-principal.yml
+   54  act -n
+   55  act -l
+   56  act -W .github/workflows/02-pipeline-principal.yml -P ubuntu-latest=node:slim
+   57  act -j scan-de-seguranca
+   58  git remote add origin git@github.com:pdroliv/CTT08-Actions.git
+   59  git branch -M main
+   60  git add .
+   61  git status
+   62  history 50 > comandos.txt
